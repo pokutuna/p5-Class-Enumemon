@@ -131,7 +131,6 @@ Enumemon - enum-like class generator
 
     1;
 
-
     package My::Pkg;
     use IdolType;
 
@@ -173,7 +172,8 @@ Enumemon - enum-like class generator
 
 =head1 DESCRIPTION
 
-Enumemon is ...
+Enumemon generate enum-like classes with typical methods that are getter for all, indexer, accessor and guard generator.
+An instance fetched from package is always same reference with another.
 
 =head1 LICENSE
 
