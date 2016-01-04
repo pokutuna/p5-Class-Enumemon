@@ -1,0 +1,4 @@
+name = "Enumemon"
+# badges = ["travis"]
+module_maker="ModuleBuildTiny"
+
