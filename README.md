@@ -84,9 +84,9 @@ it under the same terms as Perl itself.
 
 pokutuna (POKUDA Tunahiko) &lt;popopopopokutuna@gmail.com>
 
-nanto\_vi (TOYAMA Nao) &lt;nanto@moon.email.ne.jp&lt;gt>
+nanto\_vi (TOYAMA Nao) &lt;nanto@moon.email.ne.jp>
 
-mechairoi (TSUJIKAWA Takaya) &lt;ttsujikawa@gmail.com&lt;gt>
+mechairoi (TSUJIKAWA Takaya) &lt;ttsujikawa@gmail.com>
 
 # SEE ALSO
 

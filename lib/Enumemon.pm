@@ -186,9 +186,9 @@ it under the same terms as Perl itself.
 
 pokutuna (POKUDA Tunahiko) E<lt>popopopopokutuna@gmail.comE<gt>
 
-nanto_vi (TOYAMA Nao) E<lt>nanto@moon.email.ne.jp<gt>
+nanto_vi (TOYAMA Nao) E<lt>nanto@moon.email.ne.jpE<gt>
 
-mechairoi (TSUJIKAWA Takaya) E<lt>ttsujikawa@gmail.com<gt>
+mechairoi (TSUJIKAWA Takaya) E<lt>ttsujikawa@gmail.comE<gt>
 
 =head1 SEE ALSO
 
