@@ -1,7 +1,7 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "enum-like class generator",
    "author" : [
-      "pokutuna <popopopopokutuna@gmail.com>"
+      "pokutuna (POKUDA Tunahiko) <popopopopokutuna@gmail.com>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v3.0.1, CPAN::Meta::Converter version 2.150005",
@@ -42,16 +42,30 @@
       },
       "runtime" : {
          "requires" : {
+            "Carp" : "0",
+            "Guard" : "0",
             "perl" : "5.008001"
          }
       },
       "test" : {
          "requires" : {
+            "Scalar::Util" : "0",
             "Test::More" : "0.98"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/pokutuna/p5-Enumemon/issues"
+      },
+      "homepage" : "https://github.com/pokutuna/p5-Enumemon",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/pokutuna/p5-Enumemon.git",
+         "web" : "https://github.com/pokutuna/p5-Enumemon"
+      }
+   },
    "version" : "0.01",
    "x_serialization_backend" : "JSON::PP version 2.27203"
 }
