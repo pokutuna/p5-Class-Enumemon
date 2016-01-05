@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Enumemon",
+   "name" : "Class-Enumemon",
    "no_index" : {
       "directory" : [
          "t",
@@ -57,13 +57,13 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/pokutuna/p5-Enumemon/issues"
+         "web" : "https://github.com/pokutuna/p5-Class-Enumemon/issues"
       },
-      "homepage" : "https://github.com/pokutuna/p5-Enumemon",
+      "homepage" : "https://github.com/pokutuna/p5-Class-Enumemon",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/pokutuna/p5-Enumemon.git",
-         "web" : "https://github.com/pokutuna/p5-Enumemon"
+         "url" : "git://github.com/pokutuna/p5-Class-Enumemon.git",
+         "web" : "https://github.com/pokutuna/p5-Class-Enumemon"
       }
    },
    "version" : "0.01",

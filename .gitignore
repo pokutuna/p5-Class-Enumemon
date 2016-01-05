@@ -30,6 +30,6 @@ MYMETA.*
 /.build
 !Build/
 !META.json
-/Enumemon-*
+/Class-Enumemon-*
 
 cpanfile.snapshot

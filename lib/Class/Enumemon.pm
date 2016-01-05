@@ -1,4 +1,4 @@
-package Enumemon;
+package Class::Enumemon;
 use 5.008001;
 use strict;
 use warnings;
@@ -103,12 +103,12 @@ __END__
 
 =head1 NAME
 
-Enumemon - enum-like class generator
+Class::Enumemon - enum-like class generator
 
 =head1 SYNOPSIS
 
     package IdolType;
-    use Enumemon (
+    use Class::Enumemon (
         values => 1,
         getter => 1,
         indexer => {
@@ -172,7 +172,7 @@ Enumemon - enum-like class generator
 
 =head1 DESCRIPTION
 
-Enumemon generate enum-like classes with typical methods that are getter for all, indexer, accessor and guard generator.
+Class::Enumemon generate enum-like classes with typical methods that are getter for all, indexer, accessor and guard generator.
 An instance fetched from package is always same reference with another.
 
 =head1 LICENSE

@@ -1,12 +1,12 @@
-[![Build Status](https://travis-ci.org/pokutuna/p5-Enumemon.svg?branch=master)](https://travis-ci.org/pokutuna/p5-Enumemon)
+[![Build Status](https://travis-ci.org/pokutuna/p5-Class-Enumemon.svg?branch=master)](https://travis-ci.org/pokutuna/p5-Class-Enumemon)
 # NAME
 
-Enumemon - enum-like class generator
+Class::Enumemon - enum-like class generator
 
 # SYNOPSIS
 
     package IdolType;
-    use Enumemon (
+    use Class::Enumemon (
         values => 1,
         getter => 1,
         indexer => {
@@ -70,7 +70,7 @@ Enumemon - enum-like class generator
 
 # DESCRIPTION
 
-Enumemon generate enum-like classes with typical methods that are getter for all, indexer, accessor and guard generator.
+Class::Enumemon generate enum-like classes with typical methods that are getter for all, indexer, accessor and guard generator.
 An instance fetched from package is always same reference with another.
 
 # LICENSE

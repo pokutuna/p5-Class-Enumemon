@@ -6,7 +6,7 @@ use Scalar::Util qw(refaddr);
 
 {
     package TestPkg::IdolType;
-    use Enumemon (
+    use Class::Enumemon (
         values => 1,
         getter => 1,
         indexer => {
@@ -67,7 +67,7 @@ subtest 'values option' => sub {
     subtest 'without values' => sub {
         {
             package TestPkg::WithoutValues;
-            use Enumemon (
+            use Class::Enumemon (
                 indexer => { from_id => 'id' },
                 { id =>  0 },
                 { id => -1 },
@@ -107,7 +107,7 @@ subtest 'indexer option' => sub {
     subtest 'without indexer' => sub {
         {
             package TestPkg::WithoutIndexer;
-            use Enumemon (
+            use Class::Enumemon (
                 values => 1,
                 { id => 1 },
                 { id => 2 },
@@ -142,7 +142,7 @@ subtest 'getter option' => sub {
     subtest 'with bumpy values' => sub {
         {
             package TestPkg::BumpyValue;
-            use Enumemon (
+            use Class::Enumemon (
                 values => 1,
                 getter => 1,
                 { id => 1, name => 'cocoa' },
@@ -165,7 +165,7 @@ subtest 'getter option' => sub {
     subtest 'without getter' => sub {
         {
             package TestPkg::WithoutGetter;
-            use Enumemon (
+            use Class::Enumemon (
                 indexer => { from_id => 'id' },
                 { id => 1 },
             );
@@ -223,7 +223,7 @@ subtest 'local' => sub {
     subtest 'nested guard' => sub {
         {
             package TestPkg::NestedGuard;
-            use Enumemon (values => 1, { level => 1 });
+            use Class::Enumemon (values => 1, { level => 1 });
         }
         is +TestPkg::NestedGuard->values->[0]->{level}, 1;
 
