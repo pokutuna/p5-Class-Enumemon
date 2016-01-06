@@ -37,8 +37,8 @@ Class::Enumemon - enum-like class generator
 
     # `indexer`: defines indexer methods to package
     my $cu = IdolType->by_id(1); #=> bless({ id => 1, type => 'cute' }, 'IdolType')
-    IdonType->from_type('cool'); #=> bless({ id => 2, type => 'cool' }, 'IdolType')
-    IdonType->values->[2];       #=> bless({ id => 3, type => 'passion' }, 'IdolType')
+    IdolType->from_type('cool'); #=> bless({ id => 2, type => 'cool' }, 'IdolType')
+    IdolType->values->[2];       #=> bless({ id => 3, type => 'passion' }, 'IdolType')
 
     # `getter`: defines getter methods to instance
     $cu->id;   #=> 1
