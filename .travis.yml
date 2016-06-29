@@ -1,5 +1,6 @@
 language: perl
 perl:
+  - "5.24"
   - "5.22"
   - "5.20"
   - "5.18"
@@ -9,3 +10,8 @@ perl:
   - "5.10"
   - "5.8"
 sudo: false
+
+before_install:
+  - cpanm -n Devel::Cover::Report::Coveralls
+after_script:
+  - cover -test -report coveralls

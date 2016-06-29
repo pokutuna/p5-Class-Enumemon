@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/pokutuna/p5-Class-Enumemon.svg?branch=master)](https://travis-ci.org/pokutuna/p5-Class-Enumemon)
+[![Build Status](https://travis-ci.org/pokutuna/p5-Class-Enumemon.svg?branch=master)](https://travis-ci.org/pokutuna/p5-Class-Enumemon) [![Coverage Status](https://img.shields.io/coveralls/pokutuna/p5-Class-Enumemon/master.svg?style=flat)](https://coveralls.io/r/pokutuna/p5-Class-Enumemon?branch=master)
 # NAME
 
 Class::Enumemon - enum-like class generator
@@ -82,11 +82,11 @@ it under the same terms as Perl itself.
 
 # AUTHORS
 
-pokutuna (POKUDA Tunahiko) &lt;popopopopokutuna@gmail.com>
+pokutuna (POKUDA Tunahiko) <popopopopokutuna@gmail.com>
 
-nanto\_vi (TOYAMA Nao) &lt;nanto@moon.email.ne.jp>
+nanto\_vi (TOYAMA Nao) <nanto@moon.email.ne.jp>
 
-mechairoi (TSUJIKAWA Takaya) &lt;ttsujikawa@gmail.com>
+mechairoi (TSUJIKAWA Takaya) <ttsujikawa@gmail.com>
 
 # SEE ALSO
 
